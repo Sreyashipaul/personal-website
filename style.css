@@ -1,22 +1,45 @@
+
 body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 h2{
     font-size: 20px;
+    margin-bottom: auto;
+    
+}
+h2:hover{
+    color: red;
+
 }
 h1{
     font-size: 50px;
     color: deeppink;
 
 }
+h1:hover{
+
+    color: goldenrod
+}
+h3:hover{
+    color: indigo;
+}
+p:hover{
+    color: violet;
+}
+a:hover{
+  background-color: green;
+}
+
 
 .half-width{
 
      width: 40%;
      float: left;
-     margin-left: 5%;
-     padding-left: 5%; 
+     margin-top: 80px;
+     margin-left: 80px;
+     padding-left: 50px;
+   
 
 }
 .half-width img{ 
@@ -30,7 +53,7 @@ h1{
 }
 section{
     height:600px;
-    padding-bottom: 3px;
+
 }
 .link-button{
     text-decoration: none;
@@ -38,6 +61,7 @@ section{
     padding:10px 20px;
     color:white;
     font-weight: bold;
+    border-radius: 5px;
 
     
 }
@@ -46,36 +70,50 @@ section{
           background-repeat: no-repeat;
            background-position: right;
 }
-    
+.latest-work-bg{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#my-work{
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+
+}   
 .work img{
 
     width:20%;
     float: left;
-    margin: 75px;
-    padding: 10px;
-}
-.latest-work{
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-}
-    
-.footer-bg{
-    background-image: url("images/footer-bg.png");
-    background-repeat: no-repeat;
-    background-image: right;
+    margin-top: 100px;
+    margin-left: 150px;
 }
 .footer{
     text-align: center;
 }
-.link-button2{
+
+.link-button-21{
     text-decoration:none;
+    background-image: linear-gradient(20deg,deeppink,lightsalmon);
     background-color: deeppink;
-    padding:30px 30px;
+    width: 500px;
+    margin: auto;
+    padding:20px 10px;  
     color:white;
-    font-size: 70px;
     font-weight: bold;
-    
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.footer-bg{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h3{
+    font-size: 10px;
 }
 
 
